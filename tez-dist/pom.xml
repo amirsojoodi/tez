@@ -100,7 +100,7 @@
           <execution>
             <id>package-tez</id>
             <configuration>
-              <finalName>tez-${project.version}</finalName>
+              <finalName>gpu-tez-${project.version}</finalName>
               <descriptors>
                 <descriptor>src/main/assembly/tez-dist.xml</descriptor>
               </descriptors>
@@ -117,7 +117,7 @@
           <execution>
             <id>package-tez-minimal</id>
             <configuration>
-              <finalName>tez-${project.version}-minimal</finalName>
+              <finalName>gpu-tez-${project.version}-minimal</finalName>
               <descriptors>
                 <descriptor>src/main/assembly/tez-dist-minimal.xml</descriptor>
               </descriptors>
