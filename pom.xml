@@ -17,10 +17,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.tez</groupId>
-  <artifactId>tez</artifactId>
+  <artifactId>gpu-tez</artifactId>
   <packaging>pom</packaging>
-  <version>0.7.0</version>
-  <name>tez</name>
+  <version>0.1.0</version>
+  <name>gpu-tez</name>
 
   <licenses>
     <license>
@@ -50,7 +50,7 @@
     <protobuf.version>2.5.0</protobuf.version>
     <protoc.path>${env.PROTOC_PATH}</protoc.path>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <scm.url>scm:git:https://git-wip-us.apache.org/repos/asf/tez.git</scm.url>
+    <scm.url>scm:git:https://github.com/amirsojoodi/tez.git</scm.url>
     <build.time>${maven.build.timestamp}</build.time>
   </properties>
   <scm>
